@@ -131,8 +131,11 @@ function App(){
         <h2 className="text-4xl font-bold mb-10">Projects</h2>
         <div className="grid md:grid-cols-3 gap-6 w-full max-w-5xl">
           <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold mb-2">Database Management System</h3>
-            <p className="text-gray-600">A web app built with React & Tailwind.</p>
+            <a href="https://projects-weather-forecaster.netlify.app/">
+            <h3 className="text-xl font-semibold mb-2">Weather Forecast Application</h3>
+            <p className="text-gray-600">A responsive web app that provides real-time weather information and a 5-day forecast for any city using React, Tailwind CSS, and the OpenWeatherMap API. 
+             <br /> It displays temperature, weather conditions, humidity, wind speed, and feels-like temperature with dynamic icons, featuring a sleek glassmorphic design for the search bar and forecast cards.</p>
+          </a>
           </div>
           <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Dog Skin Detection and Recognition System</h3>
