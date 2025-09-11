@@ -81,11 +81,11 @@ function App(){
     ),
     About: (
       <section className="md:flex md:h-screen">
-        <div className="md:w-3/4 md:flex-col bg-black md:flex justify-center pt-14">
+        <div className="md:w-3/4 md:flex-col bg-black md:flex justify-center pt-8">
          <img
           src={ProfilePicture}
           alt="My Profile"
-          className="md:pt-6 md:w-120 md:h-180 h-90 w-60"
+          className="md:pt-4 md:w-120 md:h-180 h-90 w-60"
         /></div>
         <div className="md:w-1/3 bg-orange-500">
           <h1 className="text-white justify-end text-4xl md:text-6xl pt-10 pl-10 md:pt-30 md:pl-20 font-bold font-sans">About <br /> Aljohn</h1>
@@ -127,7 +127,7 @@ function App(){
       </section>
     ),
     Projects: (
-      <section className="bg-orange-50 flex flex-col items-center p-20">
+      <section className="md:h-screen bg-orange-50 flex flex-col items-center p-20">
         <h2 className="text-4xl font-bold mb-10">Projects</h2>
         <div className="grid md:grid-cols-3 gap-6 w-full max-w-5xl">
           <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
